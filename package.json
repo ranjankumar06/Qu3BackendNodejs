@@ -1,0 +1,48 @@
+{
+  "name": "quebackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "qu3ServerApi",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon qu3ServerApi -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-handlebars": "^7.0.7",
+    "express-static": "^1.2.6",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^5.1.0",
+    "file-extension": "^4.0.5",
+    "fs-utils": "^0.7.0",
+    "get-video-duration": "^4.1.0",
+    "hbs": "^4.2.0",
+    "joi": "^17.9.1",
+    "joi-password-complexity": "^5.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^7.0.3",
+    "multer": "^1.4.5-lts.1",
+    "node-mailer": "^0.1.1",
+    "nodemailer": "^6.9.1",
+    "otp-generator": "^4.0.1",
+    "passport": "^0.6.0",
+    "path": "^0.12.7",
+    "randomstring": "^1.2.3",
+    "socket.io": "^4.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
